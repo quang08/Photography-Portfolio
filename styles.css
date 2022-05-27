@@ -1,0 +1,35 @@
+img{
+    width:400px;
+    padding: 0.8em;
+}
+
+nav{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5em;
+}
+hr{
+    border-color: #f1f1f1;
+    width: 1260px;
+}
+.container{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;  
+}
+
+.top,.middle,.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 10;
+    
+}    
